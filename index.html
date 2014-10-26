@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Yukiboo.net</title>
+<meta name="description" content="Yukiboo.netは、埼玉県・東京都を中心にホームページ制作をしているWebデザイナーのページです。">
+<link rel="stylesheet" href="common/css/normalize.css">
+<link rel="stylesheet" href="common/css/style.css">
+
+<script src="common/js/jquery-1.10.2.min.js"></script>
+<script src="common/js/jquery.bxslider/jquery.bxslider.js"></script>
+<link rel="stylesheet" href="common/js/jquery.bxslider/jquery.bxslider.css">
+<script>
+$(document).ready(function() {
+  $('.bxslider').bxSlider({
+    auto: true,
+    speed: 2000,
+    pause: 6000
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="page">
+
+<header id="pageHead">
+	<h1 id="siteTitle">Yukiboo.net</h1>
+	<p id="catchcopy">web design services</p>
+	<nav class="globalNavi">
+		<ul>
+			<li class="current"><a href="index.html">HOME</a></li>
+			<li><a href="about/index.html">ABOUT</a></li>
+			<li><a href="works/index.html">WORKS</a></li>
+			<li><a href="contact/index.html">CONTACT</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="pageBody">
+	<section class="mainVisual">
+		<ul class="bxslider">
+			<li>
+				<div class="mainVisualText">
+					<h1>love sea</h1>
+					<p>思い立ったらすぐドライブ！とにかく海が好き。</p>
+				</div>
+				<img src="images/mainVisual_img_01.jpg" width="980" height="500" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>love photographs</h1>
+					<p>ファインダーを覗いてパシャっとするのが好きなんです。</p>
+				</div>
+				<img src="images/mainVisual_img_03.jpg" width="980" height="500" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>love animals</h1>
+					<p>特に犬！大切な家族。癒しの存在です(*´ω｀*)</p>
+				</div>
+				<img src="images/mainVisual_img_02.jpg" width="980" height="500" alt="">
+			</li>
+		</ul>
+	</section>
+
+
+
+	<section class="news">
+		<h1>INFORMATION</h1>
+		<table>
+        	<tr>
+				<th><time datetime="2014-01-24">2014年1月24日</time></th>
+				<td>Yukiboo.net　リニューアルオープン！</td>
+			</tr>
+			<tr>
+				<th><time datetime="2013-11-01">2013年11月1日</time></th>
+				<td>CONTACTページを改修しました。</td>
+			</tr>
+			<tr>
+				<th><time datetime="2013-10-01">2013年10月7日</time></th>
+				<td>サイトを全面改修しました。</td>
+			</tr>
+            <tr>
+				<th><time datetime="2013-11-01">2013年7月1日</time></th>
+				<td>Yukiboo.net　オープン！</td>
+			</tr>
+		</table>
+	</section>
+
+</div>
+
+<p class="pagetop"><a href="#page">TOP</a></p>
+
+<footer id="pageFoot">
+	<p id="copyright"><small>Copyright&copy; 2013 @Yukiboo.net All Rights Reserved.</small></p>
+</footer>
+
+</div>
+
+</body>
+</html>
